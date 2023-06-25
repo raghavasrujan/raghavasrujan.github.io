@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.e2f63bf6.chunk.css",
+    "main.css": "./static/css/main.dd988ac2.chunk.css",
     "main.js": "./static/js/main.8b0c9ace.chunk.js",
     "main.js.map": "./static/js/main.8b0c9ace.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.fff6ee50.js",
@@ -8,9 +8,9 @@
     "static/js/2.822d37cd.chunk.js": "./static/js/2.822d37cd.chunk.js",
     "static/js/2.822d37cd.chunk.js.map": "./static/js/2.822d37cd.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.e6654b5a255d54d1d67a1f225e5c819f.js": "./precache-manifest.e6654b5a255d54d1d67a1f225e5c819f.js",
+    "precache-manifest.28ac76ae0cd5fb52c6c9d2c6276add22.js": "./precache-manifest.28ac76ae0cd5fb52c6c9d2c6276add22.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.e2f63bf6.chunk.css.map": "./static/css/main.e2f63bf6.chunk.css.map",
+    "static/css/main.dd988ac2.chunk.css.map": "./static/css/main.dd988ac2.chunk.css.map",
     "static/media/index.css": "./static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Coursera.png": "./static/media/Coursera.c6fc67b3.png",
     "static/media/Meta-Logo.png": "./static/media/Meta-Logo.58a703d6.png",
@@ -66,7 +66,7 @@
   "entrypoints": [
     "static/js/runtime-main.fff6ee50.js",
     "static/js/2.822d37cd.chunk.js",
-    "static/css/main.e2f63bf6.chunk.css",
+    "static/css/main.dd988ac2.chunk.css",
     "static/js/main.8b0c9ace.chunk.js"
   ]
 }
