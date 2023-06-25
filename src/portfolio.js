@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "N Raghava Srujan Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://raghavasrujan.github.io/#/home",
   },
 };
 
@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
+    "https://drive.google.com/file/d/1A21tFAuxVcL56nrHqhW029CR7_CpZar_/view?usp=drive_link",
   portfolio_repository: "https://github.com/raghavasrujan",
   githubProfile: "https://github.com/raghavasrujan",
 };
@@ -738,7 +738,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "circle.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Web-Development, Django, ML, React and Opensource Development.",
   },
