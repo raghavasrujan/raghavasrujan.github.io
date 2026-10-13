@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Srujan Nimishakavi · GenAI Engineer</title>
+<meta name="description" content="Srujan Nimishakavi builds agentic AI, multi-agent and RAG systems. Specialist Programmer in the Infosys TOPAZ unit, Bengaluru.">
+<meta name="theme-color" content="#0b0b0b">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Srujan Nimishakavi · GenAI Engineer">
+<meta property="og:description" content="I build agentic AI, multi-agent and RAG systems that hold up in production.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/DMSans-latin.var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/DejaVuSansMono.subset.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="#about">Srujan Nimishakavi</a>
+    <p class="counter" aria-hidden="true"><b>01</b> / <span class="counter__total">11</span><span class="counter__dot">·</span><span class="counter__title">About me</span></p>
+    <nav class="header-links" aria-label="CV">
+      <a href="cv.html">CV</a>
+      <a class="button" href="assets/cv/Srujan-Nimishakavi-CV.pdf" download>PDF</a>
+    </nav>
+  </div>
+</header>
+
+<ol class="rail" aria-label="Chapters"></ol>
+
+<main id="main">
+
+  <!-- 01 -->
+  <section class="chapter hero" id="about" data-title="About me">
+    <div class="chapter__inner">
+      <div class="copy">
+        <p class="label">About me</p>
+        <h1>Hi, I'm Srujan.</h1>
+        <p class="lede">I'm a GenAI engineer building agentic AI, multi-agent and RAG systems. Right now I'm a Specialist Programmer in the Infosys TOPAZ unit, putting agents to work on enterprise audits. Before that I taught drones to steer around obstacles at IIT Hyderabad.</p>
+        <ul class="links">
+          <li><a href="https://github.com/raghavasrujan" rel="me noopener" target="_blank">GitHub</a></li>
+          <li><a href="https://linkedin.com/in/raghavasrujan" rel="me noopener" target="_blank">LinkedIn</a></li>
+          <li><a href="https://medium.com/@raghavasrujan" rel="me noopener" target="_blank">Medium</a></li>
+          <li><a href="mailto:srujanraghc@gmail.com">Email</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 -->
+  <section class="chapter chapter--fig-left" id="now" data-title="Until Sep 2026">
+    <div class="chapter__inner">
+      <figure class="fig" data-figure="agentline" data-rest="5 agents · 1 document">
+        <div class="fig__top"><span>Fig 1</span><span>Agent line</span></div>
+        <div class="fig__stage"></div>
+        <figcaption class="fig__bottom"><span class="fig__hint"><span class="fig__hint--mouse">Five agents, one document</span><span class="fig__hint--touch">Five agents, one document</span></span><span class="fig__read"></span></figcaption>
+      </figure>
+      <div class="copy">
+        <p class="label">Until Sep 2026</p>
+        <h2>I built agents that do the audit legwork</h2>
+        <p>At Infosys I built Audit AI, a production multi-agent platform for a Big Four audit client. Auditors upload their evidence and the list of samples to test in one go, and a line of specialised agents takes it from there.</p>
+        <p>One classifies each document, one extracts it into structured data, one maps every sample to its support, one vouches the evidence against the audit procedure, and one writes the Excel report. I built two of them: Availability and Classification.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 -->
+  <section class="chapter" id="availability" data-title="Availability">
+    <div class="chapter__inner">
+      <div class="copy">
+        <p class="label">Availability</p>
+        <h2>Finding the right page in the pile</h2>
+        <p>The Availability agent answers one question for every audit sample: which documents prove it? I built it on Corrective RAG. Hybrid search and semantic reranking on Azure AI Search pull the candidates, and a corrective step checks the retrieval before anything is trusted.</p>
+        <p>It cut sample-to-document matching time by 60%, at over 90% accuracy.</p>
+      </div>
+      <figure class="fig" data-figure="drawer" data-rest="searching">
+        <div class="fig__top"><span>Fig 2</span><span>Filing drawer</span></div>
+        <div class="fig__stage"></div>
+        <figcaption class="fig__bottom"><span class="fig__hint"><span class="fig__hint--mouse">Hover a file</span><span class="fig__hint--touch">Tap a file</span></span><span class="fig__read"></span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 04 -->
+  <section class="chapter chapter--fig-left" id="classification" data-title="Classification">
+    <div class="chapter__inner">
+      <figure class="fig" data-figure="reviewloop" data-rest="in review">
+        <div class="fig__top"><span>Fig 3</span><span>Review loop</span></div>
+        <div class="fig__stage"></div>
+        <figcaption class="fig__bottom"><span class="fig__hint"><span class="fig__hint--mouse">Every answer, checked twice</span><span class="fig__hint--touch">Every answer, checked twice</span></span><span class="fig__read"></span></figcaption>
+      </figure>
+      <div class="copy">
+        <p class="label">Classification</p>
+        <h2>Every answer gets a second look</h2>
+        <p>The Classification agent decides what each document is. Rather than tuning its prompts by hand, I optimised them systematically with DSPy.</p>
+        <p>Then I added a Reviewer agent. It grades every output and sends the flagged ones back to be refined, and that review-and-refine loop improved output accuracy by up to 30%.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 -->
+  <section class="chapter" id="events" data-title="Event-driven">
+    <div class="chapter__inner">
+      <div class="copy">
+        <p class="label">Event-driven</p>
+        <h2>Stop asking, start listening</h2>
+        <p>The platform used to poll: every service kept asking whether its work was ready yet. I re-architected it around Azure Service Bus, so each step now reacts the moment the one before it finishes, and the whole system became more responsive.</p>
+      </div>
+      <figure class="fig" data-figure="dominoes" data-rest="asking · listening">
+        <div class="fig__top"><span>Fig 4</span><span>Post office</span></div>
+        <div class="fig__stage"></div>
+        <figcaption class="fig__bottom"><span class="fig__hint"><span class="fig__hint--mouse">Asking vs listening</span><span class="fig__hint--touch">Asking vs listening</span></span><span class="fig__read"></span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 06 -->
+  <section class="chapter chapter--fig-left" id="buildathon" data-title="Buildathon">
+    <div class="chapter__inner">
+      <figure class="fig" data-figure="binder" data-rest="binding">
+        <div class="fig__top"><span>Fig 5</span><span>Pages to course</span></div>
+        <div class="fig__stage"></div>
+        <figcaption class="fig__bottom"><span class="fig__hint"><span class="fig__hint--mouse">Move to bind the course</span><span class="fig__hint--touch">Drag to bind the course</span></span><span class="fig__read"></span></figcaption>
+      </figure>
+      <div class="copy">
+        <p class="label">Buildathon 2026</p>
+        <h2>GemLearn</h2>
+        <p>GemLearn took first prize in Learning &amp; Development at the Google Cloud &amp; Infosys TOPAZ Buildathon. With one teammate I built GemLearn, which turns raw company documents (PDFs, specs, runbooks, decks) into role-personalised, difficulty-graded training: lessons, quizzes, mind-maps and timed exams in about three minutes.</p>
+        <p>Under the hood, a five-stage Gemini pipeline checks its own grounding, routes work between Gemini 2.5 Pro and Flash to keep costs down, and runs on six Pub/Sub worker topics on Cloud Run. It writes the base of a 28-lesson course in about two to three minutes.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 07 -->
+  <section class="chapter" id="projects" data-title="Side projects">
+    <div class="chapter__inner">
+      <figure class="fig" data-figure="turntable" data-rest="now playing">
+        <div class="fig__top"><span>Fig 6</span><span>Record player</span></div>
+        <div class="fig__stage"></div>
+        <figcaption class="fig__bottom"><span class="fig__hint"><span class="fig__hint--mouse">Hover to pick a track</span><span class="fig__hint--touch">Tap to pick a track</span></span><span class="fig__read"></span></figcaption>
+      </figure>
+      <div class="copy">
+        <p class="label">Side projects</p>
+        <h2>Most of my side projects talk</h2>
+        <p>I fine-tuned a Tacotron model to <a href="https://github.com/raghavasrujan/Emotional-Text-To-Speech" target="_blank" rel="noopener">speak with emotion</a>, built an <a href="https://github.com/raghavasrujan/Auto-Narrated-AudioBook" target="_blank" rel="noopener">audiobook narrator</a> that reads printed books aloud for visually impaired readers, and made <a href="https://github.com/raghavasrujan/Info-Clips" target="_blank" rel="noopener">Info-Clips</a>, which boils a YouTube video down to a few lines.</p>
+        <p>Right now I'm building a personal agentic coding assistant. Rather than working like a generic agent, it learns the patterns in how I work and does the work the way I would.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 08 -->
+  <section class="chapter chapter--fig-left" id="education" data-title="2020 – 2024">
+    <div class="chapter__inner">
+      <figure class="fig" data-figure="shelf" data-rest="cgpa 8.46">
+        <div class="fig__top"><span>Fig 7</span><span>Bookshelf</span></div>
+        <div class="fig__stage"></div>
+        <figcaption class="fig__bottom"><span class="fig__hint"><span class="fig__hint--mouse">Hover to pull a book</span><span class="fig__hint--touch">Tap to pull a book</span></span><span class="fig__read"></span></figcaption>
+      </figure>
+      <div class="copy">
+        <p class="label">2020 – 2024</p>
+        <h2>Eight semesters of computer science</h2>
+        <p>I studied Computer Science and Engineering at MVGR College of Engineering in Vizianagaram and graduated in 2024 with a CGPA of 8.46. Before that, Aditya Junior College in Kakinada, with 9.94.</p>
+        <p>It's also where my first machine learning projects came from: emotional speech synthesis, video summarisation, and an OCR-to-audio reader.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 09 -->
+  <section class="chapter" id="contact" data-title="Say hi">
+    <div class="chapter__inner">
+      <div class="copy">
+        <p class="label">Say hi</p>
+        <h2>Let's build something that thinks</h2>
+        <p>I'm based in Bengaluru and always happy to talk about agents, retrieval and the systems around them. Email is the fastest way to reach me.</p>
+        <ul class="links">
+          <li><a href="mailto:srujanraghc@gmail.com">srujanraghc@gmail.com</a></li>
+          <li><a href="https://linkedin.com/in/raghavasrujan" rel="me noopener" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/raghavasrujan" rel="me noopener" target="_blank">GitHub</a></li>
+          <li><a href="https://medium.com/@raghavasrujan" rel="me noopener" target="_blank">Medium</a></li>
+        </ul>
+      </div>
+      <figure class="fig" data-figure="letterbox" data-rest="open for mail">
+        <div class="fig__top"><span>Fig 8</span><span>Letterbox</span></div>
+        <div class="fig__stage"></div>
+        <figcaption class="fig__bottom"><span class="fig__hint"><span class="fig__hint--mouse">Come closer</span><span class="fig__hint--touch">Touch the box</span></span><span class="fig__read"></span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <span>© 2026 Srujan Nimishakavi</span>
+  </div>
+</footer>
+
+<script src="assets/js/hairline-kernel.js"></script>
+<script src="assets/js/site.js"></script>
+<script type="module" src="figures/agentline.js"></script>
+<script type="module" src="figures/drawer.js"></script>
+<script type="module" src="figures/reviewloop.js"></script>
+<script type="module" src="figures/dominoes.js"></script>
+<script type="module" src="figures/binder.js"></script>
+<script type="module" src="figures/turntable.js"></script>
+<script type="module" src="figures/shelf.js"></script>
+<script type="module" src="figures/letterbox.js"></script>
+</body>
+</html>
